@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game01</title>
+	<link href="indexStyle.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="stylePlayer.css" >
+	<meta name="viewport" content="width=800">
+	</head>
+<body>
+	<div id="cleft">
+	<canvas id="gameCanvas" width="500" height="500" ></canvas> 
+	<canvas id="gameRadar" width="100" height="100"></canvas>
+	<br/>
+	<div id="dati">
+	<div id="riga1">
+	<div id="colonna1">
+	<label>
+	Enter Player name, select Player color
+	</label>
+	<input type="text" id="txtNome" size=6 maxlength=6> 
+	</div>
+	<div id="colonna2">
+	<ul class="slides">
+    <input type="radio" name="radio-btn" id="img-1" checked />
+    <li class="slide-container">
+		<div class="slide">
+			<img src="img/giocatore.png" />
+        </div>
+		<div class="nav">
+			<label for="img-6" class="prev">&#x2039;</label>
+			<label for="img-2" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-2" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="img/giocatore2.png" />
+        </div>
+		<div class="nav">
+			<label for="img-1" class="prev">&#x2039;</label>
+			<label for="img-3" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="img/giocatore3.png" />
+        </div>
+		<div class="nav">
+			<label for="img-2" class="prev">&#x2039;</label>
+			<label for="img-4" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-4" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="img/giocatore4.png" />
+        </div>
+		<div class="nav">
+			<label for="img-3" class="prev">&#x2039;</label>
+			<label for="img-5" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-5" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="img/giocatore5.png" />
+        </div>
+		<div class="nav">
+			<label for="img-4" class="prev">&#x2039;</label>
+			<label for="img-6" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    
+
+    <li class="nav-dots">
+      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+      <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+     
+    </li>
+</ul>
+</div>
+</div>
+<br/>
+<button onclick="inizia()" id="btnInizia">Start</button>	
+	<br/>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src = "game01.js"></script>
+	
+	</div>	
+	</div>
+</body>
+</html>
