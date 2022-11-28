@@ -1,0 +1,9 @@
+{
+  "name": "gameBalloon-with_socket",
+  "version": "0.0.1",
+  "description": "game balloon with socket.io",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.4.1"
+  }
+}
