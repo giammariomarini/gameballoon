@@ -4,6 +4,12 @@ https://gameballoon.herokuapp.com/ (NON PIU' IN USO DAL 28/11/2022)
 https://gameballoon.giammariomarini.repl.co (DAL 28/11/2022)
 (non più funzionante dal 1-1-2024)
 
+dal 5-2-2024
+entra su gipod (https://www.gitpod.io/) con le credenziali github
+seleziona il workspce node
+
+
+
 in locale:
 1-assicurati di aver installato node.js
  il programma usa il pacchetto(libreria) express e il pacchetto socket.io per instllarli
