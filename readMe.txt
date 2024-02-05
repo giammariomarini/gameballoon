@@ -2,6 +2,7 @@ indirizzo gioco
 https://gameballoon.herokuapp.com/ (NON PIU' IN USO DAL 28/11/2022)
 
 https://gameballoon.giammariomarini.repl.co (DAL 28/11/2022)
+(non più funzionante dal 1-1-2024)
 
 in locale:
 1-assicurati di aver installato node.js
