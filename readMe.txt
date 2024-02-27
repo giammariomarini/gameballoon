@@ -10,7 +10,7 @@ seleziona il workspce node
 
 dal 27-2-2024
 pubblicato su glitch (https://glitch.com/) con le credenziali di ghithub
-url https://darkened-southern-marsupial.glitch.me/
+url https://gameballoon.glitch.me/
 
 
 in locale:
